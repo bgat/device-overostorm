@@ -7,13 +7,13 @@ Standards-Version: 3.9.3
 
 Package: device-overostorm
 Architecture: all
-Description: Root package for the Beaglebone Black target
- This is the root package for the Beaglebone Black target.
- It defines the most generic, plain-vanilla functional configuration.
+Description: Root package for the Gumstix Overo Storm target
+ Root package for the Gumstix Overo Storm target
 Depends:
- mount-mmcblk0p1-as-boot,
- dtb-overostorm,
  board-overostorm,
+ dtb-overostorm,
+ bootscr-omap3,
+ mount-mmcblk0p1-as-boot,
  baseconfig-ptux,
  ptux-essential,
  systemd-sysv,
