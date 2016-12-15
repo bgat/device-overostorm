@@ -13,7 +13,6 @@ Depends:
  board-overostorm,
  dtb-overostorm,
  bootscr-omap3,
-# mount-mmcblk0p1-as-boot,
  baseconfig-ptux,
  ptux-essential,
  systemd-sysv,
@@ -32,6 +31,7 @@ Depends:
  iw,
  rfkill,
  wpasupplicant,
+ usbutils,
  apt-transport-https,
  apt-source-ptux-device,
  ${misc:Depends}
