@@ -7,9 +7,11 @@ Standards-Version: 3.9.3
 
 Package: device-overostorm
 Architecture: all
+Multi-Arch: foreign
 Description: Root package for the Gumstix Overo Storm target
  Root package for the Gumstix Overo Storm target
 Depends:
+ default-root-sshkey-device,
  board-overostorm,
  dtb-overostorm,
  bootscr-omap3,
