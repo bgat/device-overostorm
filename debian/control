@@ -37,4 +37,5 @@ Depends:
  apt-transport-https,
  apt-source-ptux-device,
  mtd-utils,
+ u-boot-tools,
  ${misc:Depends}
